@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "9b37b176",
   "uiCommonVersion": "5.0.3",
-  "creatorId": "gdlmazav"
+  "creatorId": "gdlmazav",
+  "id": "mantismars",
+  "previewImageURL": "/previews/9b37b176-mantismars/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/Mars14/mantisMars",
+  "creatorName": "Martha Jimenez"
 }
