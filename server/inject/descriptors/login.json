@@ -33,7 +33,7 @@
         "type": "none"
       },
       "selector": "body > div:nth-child(3) > font",
-      "control": "porperty.innerText"
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
