@@ -47,10 +47,16 @@
       }
     },
     "isviewIssues": {
-      "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "type": "action",
+      "selector": "a[href]",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "action": "isviewIssues"
+    }
+  ]
 }
