@@ -21,6 +21,5 @@
       ],
       "action": "viewissuesclick"
     }
-  ],
-  "selector": ".subtle"
+  ]
 }
