@@ -1,11 +1,11 @@
 {
   "type": "object",
   "properties": {
-    "isMyView": {
-      "type": "identifier",
+    "ismyview": {
+      "type": "action",
       "selector": ".subtle[href]",
-      "control": "exists",
-      "selectContains": "Assigned to Me(Unresolved)"
+      "control": "exist",
+      "selectContains": "Assigned to Me"
     }
   },
   "connect": []
