@@ -4,7 +4,7 @@
     "ismyview": {
       "type": "identifier",
       "selector": ".subtle[href]",
-      "control": "exist",
+      "control": "exists",
       "selectContains": "Assigned to Me"
     }
   },
