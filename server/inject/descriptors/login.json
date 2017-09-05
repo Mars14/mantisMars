@@ -50,8 +50,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "[name=\"password\"]",
-      "control": "text"
+      "control": "exists",
+      "selector": ".form-title"
     }
   },
   "connect": []
