@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "ismyview": {
-      "type": "action",
+      "type": "identifier",
       "selector": ".subtle[href]",
       "control": "exist",
       "selectContains": "Assigned to Me"
