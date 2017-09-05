@@ -3,8 +3,9 @@
   "properties": {
     "isMyView": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": ".subtle[href]",
+      "control": "exists",
+      "selectContains": "Assigned to Me(Unresolved)"
     }
   },
   "connect": []
