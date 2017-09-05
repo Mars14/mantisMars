@@ -9,10 +9,18 @@
     },
     "viewissuesclick": {
       "type": "action",
-      "selector": ".subtle",
-      "control": "action.link"
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "ismyview"
+      ],
+      "action": "viewissuesclick"
+    }
+  ],
   "selector": ".subtle"
 }
