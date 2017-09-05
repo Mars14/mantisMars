@@ -43,7 +43,7 @@
           "type": "string"
         }
       },
-      "selector": ".button",
+      "selector": "[name=\"secure_session\"]",
       "control": "action.button"
     }
   },
