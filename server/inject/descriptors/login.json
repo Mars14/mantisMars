@@ -43,8 +43,8 @@
           "type": "string"
         }
       },
-      "selector": "[name=\"secure_session\"]",
-      "control": "action.button"
+      "control": "action.button",
+      "selector": ".button"
     }
   },
   "connect": []
