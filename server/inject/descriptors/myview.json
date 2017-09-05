@@ -8,5 +8,6 @@
       "selectContains": "Assigned to Me"
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": ".subtle"
 }
