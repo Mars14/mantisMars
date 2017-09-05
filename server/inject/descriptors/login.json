@@ -47,6 +47,11 @@
       },
       "control": "action.button",
       "selector": ".button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "[name=\"password\"]",
+      "control": "text"
     }
   },
   "connect": []
