@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewIssues",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
