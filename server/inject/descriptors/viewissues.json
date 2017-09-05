@@ -47,7 +47,8 @@
             }
           }
         }
-      }
+      },
+      "selectorAll": "#buglist tbody tr"
     },
     "isviewIssues": {
       "type": "identifier",
