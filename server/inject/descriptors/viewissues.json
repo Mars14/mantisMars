@@ -48,7 +48,7 @@
           }
         }
       },
-      "selectorAll": "#buglist tbody tr"
+      "selectorAll": "#buglist tbody tr{bgcolor}"
     },
     "isviewIssues": {
       "type": "identifier",
