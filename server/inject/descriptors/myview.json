@@ -9,7 +9,7 @@
     },
     "viewissuesclick": {
       "type": "action",
-      "selector": "a",
+      "selector": "a[href]",
       "control": "action.link",
       "selectContains": "View Issues"
     }
