@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isMyView": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }
