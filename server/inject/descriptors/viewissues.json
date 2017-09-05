@@ -14,7 +14,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
