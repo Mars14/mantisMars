@@ -52,9 +52,9 @@
     },
     "isviewIssues": {
       "type": "identifier",
-      "selector": "a[href]",
-      "control": "action.link",
-      "selectContains": "View Issues"
+      "selector": ".floatleft",
+      "control": "exists",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": [
