@@ -22,7 +22,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "[name=\"html\"]"
     },
     "errorMessage": {
       "type": "string",
