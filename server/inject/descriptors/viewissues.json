@@ -68,7 +68,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isviewIssues"
+      ],
       "action": "isviewIssues"
     }
   ]
