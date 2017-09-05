@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": ".subtle[href]",
       "control": "exists",
-      "selectContains": "Assigned to Me"
+      "selectContains": "Assigned to Me (Unresolved)"
     },
     "viewissuesclick": {
       "type": "action",
