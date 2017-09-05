@@ -66,12 +66,5 @@
       "selectContains": "Viewing Issues"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isviewIssues"
-      ],
-      "action": "isviewIssues"
-    }
-  ]
+  "connect": []
 }
