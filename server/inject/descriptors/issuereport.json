@@ -31,6 +31,12 @@
     },
     "submit": {
       "type": "action"
+    },
+    "isIssueReport": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "text",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
