@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "comment": "report",
+  "properties": {
+    "camera": {
+      "type": "string",
+      "selector": "td",
+      "control": "text",
+      "selectIndex": 14
+    },
+    "Category": {
+      "type": "select"
+    },
+    "priority1": {
+      "type": "boolean"
+    },
+    "priority2": {
+      "type": "boolean"
+    },
+    "priority3": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      }
+    },
+    "submit": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}
