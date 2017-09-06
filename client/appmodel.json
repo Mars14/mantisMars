@@ -104,12 +104,21 @@
         "type": "string"
       },
       "Category": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       },
       "description": {
         "type": "string",
         "update": {
-          "type": "none"
+          "type": "action",
+          "action": [
+            "submit"
+          ]
         }
       },
       "submit": {
