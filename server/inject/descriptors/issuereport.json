@@ -23,7 +23,7 @@
     },
     "submit": {
       "type": "action",
-      "selector": ".button",
+      "selector": ".button[type=\"submit\"]",
       "control": "action.button"
     },
     "isIssueReport": {
