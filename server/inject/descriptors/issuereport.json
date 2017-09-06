@@ -10,7 +10,7 @@
     },
     "Category": {
       "type": "select",
-      "selector": "[name=\"html\"]",
+      "selector": "[name=\"category_id\"]",
       "control": "property.innerText",
       "selectIndex": 1
     },
