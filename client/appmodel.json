@@ -104,9 +104,12 @@
         "type": "select"
       },
       "priority": {
-        "type": "select"
+        "type": "boolean"
       },
       "camera": {
+        "type": "string"
+      },
+      "Description": {
         "type": "string"
       }
     }
