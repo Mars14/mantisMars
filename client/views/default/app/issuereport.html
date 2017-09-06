@@ -33,7 +33,25 @@
             <span class="input-label">Description</span>
             <input ng-model="data.description" type="text">
         </label>
-        <div data-comp-id="div.2"></div>
+        <div data-comp-id="div.2">
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.1">
+                    <label class="item" data-comp-id="customPhoto.1"
+                        ng-class="{'item-input item-button-right': style === 'control'}"
+                        take-photo="control">
+                        <span class="input-label" ng-if="style === 'control'">Custom Photo</span>
+                        <button class="button button-icon" ng-if="style === 'control'">
+                            <i class="icon positive-icon ion-camera"></i>
+                        </button>
+                        <input disabled="" ng-if="style === 'control'" type="text">
+                        <input disabled="" ng-if="style === 'control'" type="text">
+                        <button class="button button-block button-positive nomargin"
+                            ng-if="style === 'button'">Custom Photo</button>
+                        <textarea class="not-visible">{{mydata}}</textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
         <div class="item-divider light-bg" data-comp-id="div.3"></div>
         <button class="button button-block energized-icon" data-comp-id="button.3"
             ng-click="app.action('issuereport', 'submit', this)">Submit Report</button>
