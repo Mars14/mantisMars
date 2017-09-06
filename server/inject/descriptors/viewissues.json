@@ -41,7 +41,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           },
           "assignedto": {
             "type": "string",
