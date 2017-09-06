@@ -20,7 +20,7 @@
         "type": "none"
       },
       "selector": "[name=\"description\"]",
-      "control": "property.innerText"
+      "control": "Text"
     },
     "submit": {
       "type": "action"
