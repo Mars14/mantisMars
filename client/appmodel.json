@@ -95,5 +95,20 @@
         }
       }
     }
+  },
+  "issuereport": {
+    "type": "object",
+    "comment": "report",
+    "properties": {
+      "category": {
+        "type": "select"
+      },
+      "priority": {
+        "type": "select"
+      },
+      "camera": {
+        "type": "string"
+      }
+    }
   }
 }
