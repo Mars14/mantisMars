@@ -19,7 +19,7 @@
         "type": "none"
       },
       "selector": "[name=\"description\"]",
-      "control": "Text"
+      "control": "text"
     },
     "submit": {
       "type": "action",
