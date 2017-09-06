@@ -34,6 +34,12 @@
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
       "sourceAppId": "universaltemplates",
       "model": "viewissues"
+    },
+    {
+      "id": "blank1",
+      "name": "BLANK1",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
