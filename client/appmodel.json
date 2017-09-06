@@ -100,17 +100,26 @@
     "type": "object",
     "comment": "report",
     "properties": {
-      "category": {
-        "type": "select"
-      },
-      "priority": {
-        "type": "boolean"
-      },
       "camera": {
         "type": "string"
       },
-      "Description": {
+      "Category": {
+        "type": "select"
+      },
+      "priority1": {
+        "type": "boolean"
+      },
+      "priority2": {
+        "type": "boolean"
+      },
+      "priority3": {
         "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "submit": {
+        "type": "action"
       }
     }
   }
