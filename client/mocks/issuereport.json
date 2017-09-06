@@ -1,1 +1,48 @@
-{}
+{
+ "Category": {
+  "selected": {
+   "label": "[All Projects] Dermatology",
+   "value": "8"
+  },
+  "options": [
+   {
+    "label": "(select)",
+    "value": "0"
+   },
+   {
+    "label": "[All Projects] Cardiology",
+    "value": "3"
+   },
+   {
+    "label": "[All Projects] Dermatology",
+    "value": "8"
+   },
+   {
+    "label": "[All Projects] General",
+    "value": "1"
+   },
+   {
+    "label": "[All Projects] Neurology",
+    "value": "5"
+   },
+   {
+    "label": "[All Projects] Orthopedics",
+    "value": "7"
+   },
+   {
+    "label": "[All Projects] Physical Therapy Center",
+    "value": "6"
+   },
+   {
+    "label": "[All Projects] Project2",
+    "value": "2"
+   },
+   {
+    "label": "[All Projects] Pulmonary Center",
+    "value": "4"
+   }
+  ]
+ },
+ "description": "Testing the flow of the screen",
+ "isIssueReport": true
+}
