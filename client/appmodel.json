@@ -106,15 +106,6 @@
       "Category": {
         "type": "select"
       },
-      "priority1": {
-        "type": "boolean"
-      },
-      "priority2": {
-        "type": "boolean"
-      },
-      "priority3": {
-        "type": "boolean"
-      },
       "description": {
         "type": "string",
         "update": {
