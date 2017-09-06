@@ -124,8 +124,10 @@
       "summary": {
         "type": "string",
         "update": {
-          "type": "change",
-          "dynamic": false
+          "type": "action",
+          "action": [
+            "submit"
+          ]
         }
       },
       "submit": {
