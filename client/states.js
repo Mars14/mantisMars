@@ -51,12 +51,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.blank1', {
+    }).state('app.issuereport', {
         views: {
             app: {
-                controller: 'app_blank1',
+                controller: 'app_issuereport',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.blank1');
+                    return app.templateProvider('app.issuereport');
                 }
             }
         }
