@@ -5,8 +5,7 @@
     "camera": {
       "type": "string",
       "selector": "[id*=\"ufile\"]",
-      "control": "text",
-      "selectIndex": 14
+      "control": "text"
     },
     "Category": {
       "type": "select",
