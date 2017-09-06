@@ -11,7 +11,7 @@
     "Category": {
       "type": "select",
       "selector": "[name=\"category_id\"]",
-      "control": "property.innerText",
+      "control": "Text",
       "selectIndex": 1
     },
     "description": {
