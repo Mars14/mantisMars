@@ -27,7 +27,9 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"description\"]",
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action"
