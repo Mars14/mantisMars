@@ -23,7 +23,8 @@
       "control": "Text"
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button"
     },
     "isIssueReport": {
       "type": "identifier",
