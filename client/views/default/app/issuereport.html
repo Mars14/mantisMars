@@ -1,5 +1,5 @@
 <ion-view data-comp-id="ionic-view.1">
-    <ion-nav-bar align-title="" class="bar-stable" data-comp-id="nav-bar.1">
+    <ion-nav-bar align-title="" class=" bar-calm" data-comp-id="nav-bar.1">
         <ion-nav-buttons side="left">
             <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
         </ion-nav-buttons>
@@ -8,5 +8,18 @@
             <button class="button button-icon ion-home" data-comp-id="button.2"></button>
         </ion-nav-buttons>
     </ion-nav-bar>
-    <ion-content data-comp-id="ionic-content.1"></ion-content>
+    <ion-content data-comp-id="ionic-content.1">
+        <label class="item" data-comp-id="takePhoto.1"
+            ng-class="{'item-input item-button-right': style === 'control'}"
+            take-photo="control">
+            <span class="input-label" ng-if="style === 'control'">Take Photo</span>
+            <button class="button button-icon" ng-if="style === 'control'">
+                <i class="icon positive-icon ion-camera"></i>
+            </button>
+            <input disabled="" ng-if="style === 'control'" type="text">
+            <button class="button button-block button-positive nomargin"
+                ng-if="style === 'button'">Take Photo</button>
+            <textarea class="not-visible"></textarea>
+        </label>
+    </ion-content>
 </ion-view>
