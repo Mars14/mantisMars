@@ -11,7 +11,7 @@
     "Category": {
       "type": "select",
       "selector": "[name=\"category_id\"]",
-      "control": "Text",
+      "control": "select",
       "selectIndex": 1
     },
     "description": {
