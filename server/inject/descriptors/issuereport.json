@@ -32,8 +32,8 @@
     },
     "isIssueReport": {
       "type": "identifier",
-      "selector": "td",
-      "control": "property.innerText"
+      "selector": ".button[value='Submit Report']",
+      "control": "exists"
     }
   },
   "connect": [
