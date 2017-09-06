@@ -1,8 +1,9 @@
 {
+ "camera": "",
  "Category": {
   "selected": {
-   "label": "[All Projects] Dermatology",
-   "value": "8"
+   "label": "(select)",
+   "value": "0"
   },
   "options": [
    {
@@ -43,6 +44,7 @@
    }
   ]
  },
- "description": "Testing the flow of the screen",
- "isIssueReport": true
+ "description": "ljaskjdklasdj",
+ "isIssueReport": true,
+ "summary": "dashdlashdl"
 }
