@@ -9,7 +9,10 @@
       "selectIndex": 14
     },
     "Category": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"html\"]",
+      "control": "property.innerText",
+      "selectIndex": 1
     },
     "priority1": {
       "type": "boolean"
