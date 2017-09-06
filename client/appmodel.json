@@ -120,6 +120,12 @@
             "submit"
           ]
         }
+      },
+      "submit": {
+        "type": "action"
+      },
+      "summary": {
+        "type": "string"
       }
     }
   }
