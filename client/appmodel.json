@@ -121,9 +121,6 @@
           ]
         }
       },
-      "submit": {
-        "type": "action"
-      },
       "summary": {
         "type": "string",
         "update": {
@@ -132,6 +129,9 @@
             "submit"
           ]
         }
+      },
+      "submit": {
+        "type": "action"
       }
     }
   }
