@@ -116,7 +116,10 @@
         "type": "string"
       },
       "description": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "submit": {
         "type": "action"

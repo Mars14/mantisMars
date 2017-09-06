@@ -24,8 +24,9 @@
         <div data-comp-id="div.1">
             <label class="item  item-input item-select-icon positive-icon"
                 data-comp-id="selectInput.1">
-                <span class="input-label">Select Category</span>
-                <select></select>
+                <span class="input-label">select Category</span>
+                <select ng-model="data.Category.selected"
+                    ng-options="item as item.label for item in data.Category.options"></select>
             </label>
         </div>
         <div data-comp-id="div.2">
@@ -34,7 +35,7 @@
             <ion-radio class="radio-button" data-comp-id="radio.3">Priority 3</ion-radio>
         </div>
         <div class="item-divider light-bg" data-comp-id="div.3">
-            <div data-comp-id="text.1">Description</div>
+            <div data-comp-id="text.1" ng-bind="data.description">Description</div>
         </div>
         <button class="button button-block energized-icon" data-comp-id="button.3">Submit Report</button>
     </ion-content>
