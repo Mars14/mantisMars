@@ -29,6 +29,11 @@
       "type": "identifier",
       "selector": ".button[value='Submit Report']",
       "control": "exists"
+    },
+    "submit": {
+      "type": "action",
+      "selector": ".button[type=\"submit\"]",
+      "control": "action.button"
     }
   },
   "connect": [
