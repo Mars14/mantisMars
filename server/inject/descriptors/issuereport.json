@@ -28,7 +28,7 @@
     "summary": {
       "type": "string",
       "selector": "[name=\"summary\"]",
-      "control": "text"
+      "control": "property.innerText"
     },
     "isIssueReport": {
       "type": "identifier",
