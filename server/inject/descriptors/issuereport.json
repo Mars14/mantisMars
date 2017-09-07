@@ -20,11 +20,6 @@
       "selector": "[name=\"description\"]",
       "control": "text"
     },
-    "submit": {
-      "type": "action",
-      "selector": ".button[type=\"submit\"]",
-      "control": "text"
-    },
     "summary": {
       "type": "string",
       "selector": "[name=\"summary\"]",
