@@ -5,7 +5,7 @@ function app_issuereport($scope, app) {
     
     $scope.submitReport = function() {
         //app.action('issuereport', 'submit', this)
-        $scope.data.submit = 'hello'; 
+        //$scope.data.submit = 'hello'; 
         app.call('issuereport.submitReportCall', $scope.data);
     }
 }
